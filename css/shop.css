@@ -27,7 +27,9 @@
 .section-content-1-para {
     position: absolute;
     top: 50%;
+    left: 50%;
     right: 50%;
+    bottom: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,6 +40,7 @@
     font-size: 40px;
     font-weight: 600;
     color: white;
+    
 }
 
 .section-content-2 {
