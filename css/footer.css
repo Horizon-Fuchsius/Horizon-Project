@@ -97,11 +97,12 @@ footer {
 }
 
 .footer-content-3 button {
-    /* width: 250px; */
+    width: calc(245px - 10px);
     height: 30px;
     border-radius: 5px;
     background-color: var(--color);
     border: none;
+    padding: 5px;
     transition: .5s all .2s;
 }
 
