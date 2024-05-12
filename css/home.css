@@ -89,3 +89,59 @@ button{
     background-color: whitesmoke;
     font-size: large;
 }
+
+.box-3{
+    width:100%;
+    height: 300px;
+    background-color: aliceblue;
+    position: relative;
+}
+.x{
+    color: rgb(6, 244, 165);
+}
+
+.box-4{
+    position: absolute;
+    background-color:rgba(255, 255, 255, 1);
+    ;
+    width: 80%;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: -100px;
+    margin-left: 10%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+     box-shadow:  0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.box-4-icon{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: -13%;
+    flex: 1;
+    justify-content: center;   
+}
+
+.box-4-text-heading{
+    
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    color: gray;
+}
+
+.box-4-text-c{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+
+}
