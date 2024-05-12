@@ -3,7 +3,12 @@ footer {
     height: 300px;
     margin-top: 80px;
     position: relative;
+    bottom: 0;
+
+    
 }
+
+
 
 .footer-image {
     width: 100%;
