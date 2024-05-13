@@ -31,23 +31,30 @@
 }
 
 .x{
-    font-family: Reenie Beanie;
+    font-family: Reenie Beanie , cursive;
     font-size: 20px;
     font-weight: 500;
     line-height: 45px;
     text-align: left;
     display: flex;
-    align-items: center;
+    justify-content: center;
         color: #1BBC9B;
 }
 
 .y{
     font-size: 10px;
+    justify-content: center;
+}
+.z{
+    font-family:Poppins;
+    font-size: 30px;
+    color: aliceblue;
 }
 
 button{
     background-color: aqua;
     color: bisque;
+    margin: 0%;
 }
 
 .card-container-1 {
@@ -62,14 +69,6 @@ button{
     margin: 10px;
 }
 
-.box-1{
-    width:40%;
-    height:150px;
-    /*background-color: blue;*/
-    padding-left: 70px;
-
-}
-
 .card-container-2 {
     display: flex;
     justify-content: center;
@@ -80,6 +79,13 @@ button{
     height: 390px;
     background-color: #f0f0f0;
     margin: 10px;
+}
+
+.box-1{
+    width:40%;
+    height:150px;
+    /*background-color: blue;*/
+    padding-left: 70px;
 }
 
 .box-2{
@@ -96,16 +102,13 @@ button{
     background-color: aliceblue;
     position: relative;
 }
-.x{
-    color: rgb(6, 244, 165);
-}
 
 .box-4{
     position: absolute;
     background-color:rgba(255, 255, 255, 1);
     ;
     width: 80%;
-    height: 100px;
+    height: 80px;
     border-radius: 15px;
     margin-top: -100px;
     margin-left: 10%;
@@ -199,17 +202,43 @@ button{
 }
 .box-9{
     width: 320px;
-    height: 140px;
+    height: 154px;
     background-color:aqua;
 }
 
 .box-10{
 
-    top: 46%; 
+    top: 56%; 
     left: 60%;
-    width: 350px;
-    height: 140px;
+    width: 320px;
+    height: 154px;
     justify-content: center;
     position: absolute;
     background-color: aqua;
+}
+
+.card-container-4 {
+    display: flex;
+    justify-content: center;
+}
+      
+.card-4 {
+    width: 250px;
+    height: 300px;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+.card-5 {
+    width: 250px;
+    height: 310px;
+    background-color:#1BBC9B;
+    margin: 10px;
+}
+
+.card-6 {
+    width: 250px;
+    height: 300px;
+    background-color: #282a58;
+    margin: 10px;
 }
