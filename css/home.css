@@ -145,3 +145,71 @@ button{
     text-align: left;
 
 }
+
+.card-container-3 {
+    display: flex;
+    justify-content: center;
+}
+      
+.card-3 {
+    width: 250px;
+    height: 300px;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+.box-5{
+    width:100%;
+    height: 600px;
+    background-color: rgb(15, 127, 225);
+    position: relative;
+}
+
+.overlay {
+    top: 25%; 
+    left: 30%;
+    width: 350px;
+    height: 330px;
+    justify-content: center;
+    position: absolute;
+}
+.box-6{
+    top: 25%; 
+    left: 60%;
+    width: 350px;
+    height: 330px;
+    justify-content: center;
+    position: absolute;
+}
+
+.box-7{
+    width:300px;
+    height:300px;
+    background-color: blue;
+    justify-content: center;
+}
+
+.box-8{
+    top: 25%; 
+    left: 25%;
+    width: 350px;
+    height: 330px;
+    justify-content: center;
+    position: absolute;
+}
+.box-9{
+    width: 320px;
+    height: 140px;
+    background-color:aqua;
+}
+
+.box-10{
+
+    top: 46%; 
+    left: 60%;
+    width: 350px;
+    height: 140px;
+    justify-content: center;
+    position: absolute;
+    background-color: aqua;
+}
