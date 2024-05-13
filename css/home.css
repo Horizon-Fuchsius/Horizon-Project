@@ -1,0 +1,147 @@
+.section-content {
+    width: 100%;
+}
+
+.section-content-1 {
+    width: 100%;
+    position: relative;
+}
+
+.section-content-1 img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.section-content-1-para {
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-content-1-para p {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(19, 18, 18);
+}
+
+.x{
+    font-family: Reenie Beanie;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+        color: #1BBC9B;
+}
+
+.y{
+    font-size: 10px;
+}
+
+button{
+    background-color: aqua;
+    color: bisque;
+}
+
+.card-container-1 {
+    display: flex;
+    justify-content: center;
+}
+      
+.card {
+    width: 300px;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+.box-1{
+    width:40%;
+    height:150px;
+    /*background-color: blue;*/
+    padding-left: 70px;
+
+}
+
+.card-container-2 {
+    display: flex;
+    justify-content: center;
+}
+      
+.card-2 {
+    width: 300px;
+    height: 390px;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+.box-2{
+    width:300px;
+    height: 20px;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: large;
+}
+
+.box-3{
+    width:100%;
+    height: 300px;
+    background-color: aliceblue;
+    position: relative;
+}
+.x{
+    color: rgb(6, 244, 165);
+}
+
+.box-4{
+    position: absolute;
+    background-color:rgba(255, 255, 255, 1);
+    ;
+    width: 80%;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: -100px;
+    margin-left: 10%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+     box-shadow:  0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.box-4-icon{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: -13%;
+    flex: 1;
+    justify-content: center;   
+}
+
+.box-4-text-heading{
+    
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    color: gray;
+}
+
+.box-4-text-c{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+
+}
