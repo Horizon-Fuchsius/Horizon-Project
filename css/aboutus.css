@@ -931,26 +931,31 @@
 .section-content-6 {
     width: 100%;
     position: relative;
+
+
 }
 
 
 .section-content-6 img {
     width: 100%;
-    height: 500px;
+    height: 990px;
     object-fit: cover;
     filter: brightness(60%);
 
+
 }
+
+
 
 
 
 
 .section-content-6-content {
     width: 100%;
-    height: 500px;
-    background-color: red;
+    /* height: 500px; */
+    /* background-color: rgb(77, 224, 61); */
     position: absolute;
-    top: 0;
+    top: 20%;
     left: 0;
 }
 
@@ -959,13 +964,165 @@
 }
 
 .section-content-6-content-1 {
-    width: 40%;
-    height: 500px;
-    background-color: blue;
+    width: calc(40% - 10px);
+    /* height: 500px; */
+    /* background-color: blue; */
+    border-radius: 10px;
+    /* overflow: hidden; */
+    padding: 5px;
 }
 
-.section-content-6-content-2 {
+.section-content-6-content-1-image {
+    width: 100%;
+    height: 200px;
+    /* background-color: rgb(0, 251, 255); */
+}
+
+.section-content-6-content-1-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.section-content-6-content-1-para {
+    width: calc(100% -10px);
+    height: 300px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}
+
+.section-content-6-content-1-para-1 {
+    width: 100%;
+    height: 80px;
+    /* background-color: lime; */
+}
+
+
+.section-content-6-content-1-para-1 h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+.section-content-6-content-1-para-1-icon {
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-content-6-content-1-para-1 i {
+
+    font-size: 15px;
+}
+
+.section-content-6-content-1-para-1 p {
+    margin-left: 20px;
+    font-family: var(--font);
+}
+
+.section-content-6-content-1-para-2 {
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    /* background-color: lime; */
+}
+
+.section-content-6-content-1-para-2 p {
+    margin-top: 10px;
+    text-align: justify;
+    font-family: var(--font);
+    font-size: 15px;
+}
+
+.section-content-6-content-1-para-3 {
+    width: 100%;
+    height: 80px;
+    margin-top: 5px;
+    /* background-color: lime; */
+    display: flex;
+}
+
+.section-content-6-content-1-para-3-price {
+    width: 40%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.section-content-6-content-1-para-3-price p {
+    font-family: var(--font);
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.section-content-6-content-1-para-3-price h3 {
+    font-family: var(--font);
+    font-size: 20px;
+}
+
+.section-content-6-content-1-para-3-button {
     width: calc(100% - 40%);
-    height: 500px;
-    background-color: rgb(255, 0, 140);
+    height: 100%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.section-content-6-content-1-para-3-button button {
+    width: 100px;
+    height: 30px;
+    background-color: rgba(27, 188, 155, 1);
+    border: none;
+    transition: .2s all .2s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section-content-6-content-1-para-3-button button:hover {
+    background-color: rgb(20, 119, 99);
+}
+
+.section-content-6-content-1-para-3-button p {
+    color: white;
+}
+
+
+
+.section-content-6-content-2 {
+    width: calc(100% - 40% - 60px);
+    /* height: 500px; */
+    background-color: rgb(255, 0, 0);
+    padding: 30px;
+}
+
+.section-content-6-content-2 p {
+    font-family: "Reenie Beanie", cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.section-content-6-content-2 h2{
+    font-size: 50px;
+    font-family: var(--font);
+}
+
+@media(max-width : 768px) {
+    .section-content-6-content-box {
+        flex-direction: column-reverse;
+    }
+
+
+
+    .section-content-6-content-1 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .section-content-6-content-2 {
+        width: 90%;
+        margin: auto;
+    }
+
+
 }
