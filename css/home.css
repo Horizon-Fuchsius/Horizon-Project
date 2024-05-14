@@ -38,7 +38,8 @@
     text-align: left;
     display: flex;
     justify-content: center;
-        color: #1BBC9B;
+        color:#1BBC9B;
+        ;
 }
 
 .y{
@@ -48,11 +49,11 @@
 .z{
     font-family:Poppins;
     font-size: 30px;
-    color: aliceblue;
+    color: rgb(9, 9, 9);
 }
 
 button{
-    background-color: aqua;
+    background-color: #1BBC9B;
     color: bisque;
     margin: 0%;
 }
@@ -203,7 +204,8 @@ button{
 .box-9{
     width: 320px;
     height: 154px;
-    background-color:aqua;
+    background-color:#1BBC9B;
+    ;
 }
 
 .box-10{
@@ -214,7 +216,7 @@ button{
     height: 154px;
     justify-content: center;
     position: absolute;
-    background-color: aqua;
+    background-color: #1BBC9B;
 }
 
 .card-container-4 {
