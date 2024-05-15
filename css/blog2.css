@@ -115,6 +115,15 @@
     margin-top: 10px;
     margin-left: 50%;
 }
+.box-3-btn-l{
+    width: 100px;
+    height: 10px;
+    display: flex;
+    gap: 10px;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
 .box-3-btn2 img{
     width: 7px;
     height: 7px;
@@ -177,6 +186,7 @@
 }
 .box-6-layout{
     width: 100%;
+    height: 40px;
     margin-top: 20px;
     padding: 21px 0px;
     gap: 0px;
@@ -185,6 +195,111 @@
     border-left: 0;
     border-right: 0;
 }
+.box-6-l-img{
+    width: 40px;
+    height: 27px;
+    padding: 3.1px 14.69px 5.9px 0px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(27, 188, 155, 1);  
+    margin-top: -10px;
+}
+.box-6-l-para{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+.para1{
+    font-family: Reenie Beanie, cursive;
+    font-size: 29.65px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgba(27, 188, 155, 1);
+}
+.para2{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+}
+.box-7{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 40px;
+    display: flex;
+    display: flex;
+}
+.box-7-card{
+    width: calc(86% /3);
+    height: 550px;
+    background-color: white;
+    margin-left: 4%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.box-7-card img{
+    width: 100%;
+    height: 230px;
+    border-radius: 15px;
+}
+.box-7-c-txtbox{
+    width: 115.11px;
+    height: 24px;
+    padding: 5px 14.67px 5px 15px;
+    border-radius: 5px;
+    background-color:rgba(67, 74, 84, 1);
+    margin-top: 3%;
+}
+.box-7-c-txt{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: center;
+    color: white;
+    margin-top: 4px;
+    
+}
+.box-7-c-heading{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-align: left;
+    margin-top: 2%;
+}
+.box-7-c-para{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(110, 110, 110, 1);
+    margin-top: 2%;
+}
+.box-7-c-button{
+    margin-top: 20px;
+    width: 135px;
+    height: 44px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 1s all .5s;
+    background-color:rgba(27, 188, 155, 1);
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+}
+
 
 /* responsive */
 
@@ -232,6 +347,9 @@
         font-size: 14px;
         margin-left: 45%;
     }
+    .box-3-btn-l{
+        margin-left: 45%;
+    }
     .box-4{
         width: 90%;
         margin-left: 5%;
@@ -272,7 +390,42 @@
     }
     .box-6-layout{
         width: 90%;
+        height: 15px;
         margin-left: 5%;
+    }
+    .box-6-l-para{
+        margin-top: -40px;
+    }
+    .box-6-l-img{
+        margin-top: -5px;
+    }
+    .box-7{
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .box-7-card{
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+    }
+    .box-2-c-txtbox{
+        margin-left: 30%;
+    }
+    .box-2-c-heading{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .box-2-c-para{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .box-2-c-button{
+        margin-left: 30%;
     }
     
     
