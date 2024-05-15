@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 nav {
   width: 100%;
- /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
-  position: sticky;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: fixed;
   top: 0;
   z-index: 5;
   background-color: white;
@@ -20,6 +22,7 @@ nav {
   /* background-color: brown; */
   display: flex;
   align-items: center;
+  color: black;
 }
 
 .nav-content-1 img {
@@ -32,8 +35,9 @@ nav {
   height: 100%;
   /* background-color: rgb(174, 157, 189); */
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
+  color: black;
 }
 
 .nav-content-2 ul {
@@ -47,6 +51,14 @@ nav {
 
 .nav-content-2 ul li a {
   text-decoration: none;
+  color: black;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.nav-content-2 ul li a:hover{
+  transition: 1s ease;
+  color: #1BBC9B;
 }
 
 @media screen and (max-width: 1100px) {
@@ -64,36 +76,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-}
-
-.nav-content-2-a {
-  display: flex;
-  margin-left: 50px;
-  cursor: pointer;
-}
-
-.nav-content-2-a li a {
-  margin-left: 30px;
-}
-
-@media screen and (max-width: 1100px) {
-  .nav-content-2-a {
-    margin-left: 10px;
-  }
-
-  .nav-content-2-a li a {
-    margin-left: 10px;
-  }
-}
-
-@media screen and (max-width: 890px) {
-  .nav-content-2-a {
-    margin-left: 5px;
-  }
-
-  .nav-content-2-a li a {
-    margin-left: 5px;
   }
 }
 
@@ -128,6 +110,8 @@ nav {
   margin-left: 60px;
   background-color: #1bbc9b;
   border-radius: 3px;
+  color:white;
+  font-weight: 700;
 }
 
 .nav-content-3 button:hover {
@@ -153,10 +137,6 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  .nav-content-3 button {
-    display: none;
-  }
-
   .nav-content-3 {
     width: 100%;
     display: flex;
@@ -177,8 +157,8 @@ nav {
   margin-top: 69px;
   overflow-y: auto;
   transition: all 0.5s ease;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 .menu ul {
@@ -190,7 +170,13 @@ nav {
 }
 
 .menu ul a li {
-  margin-top: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.menu ul a li:hover {
+  color: #1BBC9B;
+  transition: 1s ease;
 }
 
 .menu.active {
@@ -198,7 +184,7 @@ nav {
 }
 
 .menu a {
-  color: rgb(94, 80, 157);
+  color: rgb(0, 0, 0);
   font-size: 16px;
   letter-spacing: 0.3px;
   font-weight: 400;
