@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/archive.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/single.css">
+    <script type="module" src="./JS/map.js"></script>
 </head>
 
 <body>
@@ -122,10 +123,185 @@
     </div>
     <div class="box-1-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="rgba(27,188,155,1)"><path d="M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM8 13V15H6V13H8ZM13 13V15H11V13H13ZM18 13V15H16V13H18ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"></path></svg>
-        <div class="box-1-text-heading">Age<br><span style="font-weight: bold;">0</span></div>
+        <div class="box-1-text-heading">Min Age<br><span style="font-weight: bold;">0</span></div>
     </div>
 </div>
 </section>
+
+
+<div class="container-3">
+  <div class="content">
+      <h2>Enjoy the Adventure</h2>
+      <p>Are you looking for an adventure of a lifetime? Join us on an unforgettable journey through some of the
+          world's most stunning landscapes and cultural destinations. Our expertly curated tours take you to
+          incredible destinations, from the rugged mountains of Patagonia to the vibrant cities of Asia. Our
+          itineraries are designed to immerse you in the local culture, with opportunities to meet locals, try new
+          foods, and learn about the history and traditions of each destination. Our experienced guides will lead
+          you through each destination, sharing their knowledge and passion for travel. We offer a range of
+          activities to suit every traveler, from hiking and kayaking to cultural tours and culinary experiences.</p>
+          <p>
+              Our accommodations are carefully selected for comfort and convenience, with options to suit every
+              budget. Whether you prefer luxurious hotels or cozy homestays, we have something for everyone. At
+              every step of the journey, we prioritize sustainability and responsible tourism. We work with local
+              communities to ensure that our tours have a positive impact on the environment and the people we
+              meet along the way. Join us on a journey of discovery and exploration, and discover the world's most
+              incredible destinations with us.
+          </p>
+          <hr>
+      <h2>Included / Excluded</h2>
+      <p>To help you plan your trip, we have put together a list of what's included and what's not included in your
+          tour package. This will give you a clear understanding of what to expect and help you make any
+          necessary arrangements before your journey begins.</p>
+      <div class="container-2">
+          <ul class="included">
+              <li>Train tickets and Bus transportation</li>
+              <li>Breakfast, lunch, and dinner</li>
+              <li>Accommodation at hotel</li>
+              <li>Professional tour guide</li>
+              <li>Train tickets and Bus transportation</li>
+          </ul>
+          <ul class="included">
+              <li>Professional tour guide</li>
+              <li>Transfers between destinations</li>
+              <li class="excluded">Entrance fees to museums</li>
+              <li class="excluded">Custom itinerary</li>
+          </ul>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <h2>Tour Map</h2>
+      <p>This comprehensive map is designed to guide you through an exciting journey filled with remarkable
+        destinations and captivating experiences.</p>
+        <div id="map"></div>
+
+    <!-- prettier-ignore -->
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "   ", v: "weekly"});</script>
+<br>
+        <hr>
+        <br>
+        <h2>Itinerary</h2>
+        <p>We have carefully planned out each day to give you the best possible experience. From exploring historic
+          landmarks to tasting delicious local cuisine, each day is packed with adventure and excitement. Join us
+          as we take you on a journey through some of the most fascinating destinations in the world.</p>
+
+          <div class="itinerary-container">
+
+              <a href="" class="itinerary-list"><span id="green-c"> DAY 1 </span>- Arrival and Orientation  <i class="ri-arrow-right-s-line" style="float: right;"></i></a>
+              <hr>
+              <a href="" class="itinerary-list"> <span id="green-c"> DAY 2 </span>- City Tour</h3> <i class="ri-arrow-right-s-line" style="float: right;"></i></a>
+              <hr>
+              <a href="" class="itinerary-list"> <span id="green-c"> DAY 3 </span> - Cooking Class</h3> <i class="ri-arrow-right-s-line" style="float: right;"></i></a>
+              <hr>
+              <a href="" class="itinerary-list"> <span id="green-c"> DAY 4 </span> - Nature Hike</h3> <i class="ri-arrow-right-s-line" style="float: right;"></i></a>
+              <hr>
+              <a href="" class="itinerary-list"> <span id="green-c"> DAY 5 </span>- Free Day</h3> <i class="ri-arrow-right-s-line" style="float: right;"></i></a>
+              <br><hr>
+              
+              <h2>Gallery</h2>
+              <p>Each image tells a unique story, Inviting us into a world of emotion, beauty, and complexity. Get ready to be moved, inspired, and challenged as we journey through this captivating collection of images.</p>
+              <div class="image-container-2">
+                <img src="images/pricar1.jpeg" alt="Image 1 ">
+                <img src="images/pricar2.jpeg" alt="Image 2 ">
+                <img src="images/pricar3.jpeg" alt="Image 3 ">
+                </div>
+                <div class="image-container-2">
+                  <img src="images/pricesimg1.jpeg" alt="Image 4">
+                  <img src="images/aboutus3.jpeg" alt="Image 5">
+                  <img src="images/aboutus.jpeg" alt="Image 6">
+                  </div>
+            </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="booking-container">
+      <div class="price">
+          
+          <p>Price<br><span class="price-2">From</span></p>
+          <p class="price-amount" id="total-price">$490</p>
+      </div>
+      <hr>
+      <br>
+      <div class="tabs">
+        <button class="tab active" onclick="openTab('booking')">Booking Form</button>
+        <button class="tab" onclick="openTab('enquiry')">Enquiry Form</button>
+    </div>
+      <hr>
+      <div id="booking" class="tab-content">
+          <form id="booking-form">
+              <label for="date" class="bold-t">Date</label>
+              <input type="date" id="date" name="date" value="2024-03-13">
+              <hr>
+              <div class="item-container">
+                <label for="adults" class="bold-t">Adults</label>
+                <div class="price-and-selector">
+                    <span class="price"> Over 18 ( $ 490 )</span>
+                    <div class="quantity-selector">
+                        <button type="button" onclick="changeQuantity('adults', -1)">-</button>
+                        <input type="number" id="adults" name="adults" value="1" min="1">
+                        <button type="button" onclick="changeQuantity('adults', 1)">+</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="item-container">
+                <label for="children" class="bold-t">Children</label>
+                <div class="price-and-selector">
+                    <span class="price">Under 18 ( $ 200 )</span>
+                    <div class="quantity-selector">
+                        <button type="button" onclick="changeQuantity('children', -1)">-</button>
+                        <input type="number" id="children" name="children" value="0" min="0">
+                        <button type="button" onclick="changeQuantity('children', 1)">+</button>
+                    </div>
+                </div>
+            </div>
+            
+              <hr>
+              <fieldset>
+                  <legend class="bold-t">Extra Services</legend>
+                  <span style="font-size: 15px;">extra services on your reservation</span>
+                  <label>
+                      <input type="checkbox" id="health-insurance" name="health-insurance" value="220">
+                      Health Insurance ($220)
+                  </label>
+                  <label>
+                      <input type="checkbox" id="medical-insurance" name="medical-insurance" value="45">
+                      Medical Insurance ($45)
+                  </label>
+              </fieldset>
+              
+              <button type="button" onclick="calculateTotal()" id="book">Book Now for <span id="button-price">$490</span></button>
+          </form>
+      </div>
+      <div id="enquiry" class="tab-content" style="display: none;">
+          <!-- Enquiry Form Content -->
+      </div>
+  </div>
+  <script src="JS/script2.js"></script>
+      
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -154,8 +330,8 @@
                   <h5><i class="ri-map-pin-2-fill" id="purple-2"></i>  Greece</h5>
                   <hr>
                   <p>
-                    Immerse yourself in the history and culture<br>
-of this ancient city as you explore the<br>
+                    Immerse yourself in the history and culture
+of this ancient city as you explore the
 stunning Acropolis.
                   </p>
                   <hr>
@@ -184,8 +360,8 @@ stunning Acropolis.
                     <h5><i class="ri-map-pin-2-fill" id="blue-2"></i>  France</h5>
                     <hr />
                     <p>
-                        Escape to the azure coast and discover a<br>
-                        world of breathtaking beauty and<br>
+                        Escape to the azure coast and discover a
+                        world of breathtaking beauty and
                         tranquility of coastline.
                   </p>
                   <hr>
@@ -209,8 +385,8 @@ stunning Acropolis.
                     <h5><i class="ri-map-pin-2-fill" id="purple-2"></i> Thailand</h5>
                     <hr />
                     <p>
-                      Marvelous culinary and cultural trip to the<br>
-                      Thai capital with its wonderful monuments<br>
+                      Marvelous culinary and cultural trip to the
+                      Thai capital with its wonderful monuments
                       and Buddha statues.
                     </p>
                     <hr>
