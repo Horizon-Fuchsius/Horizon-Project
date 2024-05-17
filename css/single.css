@@ -19,7 +19,11 @@
   }
   
 
-
+  #map {
+    height: 400px;
+    
+  }
+  
 
   .box-1{
     position: absolute;
@@ -74,6 +78,238 @@
 }
 
 
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    line-height: 1.6;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.booking-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.price p {
+    margin: 0;
+}
+.price-2{
+    font-weight: bold;
+    font-size: 20px;
+}
+.price-amount {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tab {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tab.active {
+    font-weight: bold;
+    color: #1BBC9B;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bold-t {
+    font-weight: bold;
+}
+
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="date"]{
+    margin-bottom: 15px;
+    text-align: left;
+}
+input[type="number"]{
+    font-size: 20px;
+    font-weight: bold;
+    width: 30px;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Hide the spinners in WebKit browsers */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.item-container {
+    margin-bottom: 15px;
+}
+
+.price-and-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 15px;
+}
+
+.quantity-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantity-selector button {
+    padding: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+    margin-left: -3px;
+}
+
+button[type="button"] {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="button"]:hover {
+    background-color: white;
+   
+}
+
+#book {
+    background-color: #1BBC9B;
+    color: #f5f5f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 220px;
+    background: white;
+    
+}
+.container-2 {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.included{
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    width: 45%; 
+}
+
+.content {
+    width: 60%;
+}
+.content h2 {
+    color: #333;
+}
+.content p {
+    margin: 10px 0;
+}
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+.content ul li {
+    padding: 5px 0;
+}
+.content ul li:before {
+    content: '✔';
+    color: #1BBC9B;
+    margin-right: 10px;
+}
+.content ul li.excluded:before {
+    content: '✖';
+    color: #000000;
+}
+
 
 
 
@@ -110,3 +346,40 @@
     font-family: "Poppins", sans-serif;
     font-size: 30px;
 }
+
+.itinerary-list {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.itinerary-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  #green-c{
+    color: #1BBC9B;
+  }
+
+  .day {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+  }
+
+  .image-container-2 {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+ 
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
