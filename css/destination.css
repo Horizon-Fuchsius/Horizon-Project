@@ -15,6 +15,7 @@
     width: 100%;
     height: 500px;
     object-fit: cover;
+    filter: brightness(0.5);
 
 }
 
@@ -34,14 +35,16 @@
     color: white;
 }
 
+.container-box{
+    display: flex ;
+}
 .box-1{
     position: absolute;
     background-color:rgba(255, 255, 255, 1);
-    ;
     width: 80%;
     height: 100px;
     border-radius: 15px;
-    margin-top: -100px;
+    margin-top: -120px;
     margin-left: 10%;
     z-index: 1;
     display: flex;
@@ -83,11 +86,10 @@
 .box-2{
     position: relative;
     background-color:white;
-    width: 650px;
+    width: 600px;
     height: 550px;
-    margin-top: 5%;
-    margin-left: 40%;
-    
+    margin-top: -50%;
+    margin-left: 50%;  
 }
 
 .box-2-para1{
@@ -123,9 +125,333 @@
     margin-left: 5%;
     margin-top: 3%;
     color:  rgba(110, 110, 110, 1);
+}
 
+.box-2-para3{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: rgba(23, 38, 47, 1);
+}
+
+.box-2-hr1{
+    width: 350px;
+    height: 2px;
+    top: 40px;
+    padding: 0px 133.24px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+    background: black;
+    margin-left: 5%;
+    border-radius: 2px;
+}
+
+.box-2-hr2{
+    width: 250px;
+    height: 2px;
+    top: 40px;
+    padding: 0px 133.24px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+    background:rgba(27, 188, 155, 1); ;
+    margin-left: 5%;
+    border-radius: 2px;
+}
+
+.box-2-hr3{
+    width: 450px;
+    height: 2px;
+    top: 40px;
+    padding: 0px 133.24px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+    background: black;
+    margin-left: 5%;
+    border-radius: 2px;
+}
+
+.box-2-button{
+    margin-top: 40px;
+    width: calc(150px - 10px);
+    height: calc(50px - 10px);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 1s all .5s;
+    background-color: rgba(27, 188, 155, 1);
+    margin-left: 5%;
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
 
 }
+
+.box-3-img-layout1{
+    width: 500px;
+    height: 720px;
+    margin-top: 2%;
+    margin-left: 10%;
+    padding: 0px 50px 131.4px 25px;
+    gap: 0px;
+    background: white;
+    position: relative;
+}
+
+.box-3-img1{
+    width: 100px;
+    height: 500px;
+    margin-top: -10%;
+    margin-left: 50%; 
+    border-radius: 5px;  
+}
+
+.box-3-img2{
+    width: 80px;
+    height: 400px;
+    margin-top: -20%;
+    margin-left: -15%;   
+}
+
+.package-heading1{
+    font-family: Reenie Beanie , cursive;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    color: rgba(27, 188, 155, 1);
+}
+
+.package-heading2{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: black;
+}
+
+.box-4{
+    width: 80%;
+    height: 700px;
+    margin-top: 5%;
+    margin-left: 10%;
+    ;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  width: 400px;
+  height: 650px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-img{
+    width: 400px;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-box{
+    width: 320px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 3%;
+    gap: 0px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.card1-box-item1{
+    width: 15.38px;
+    height: 15px;
+    margin-top: 12px;
+    margin-left: 20px;
+    color: #F0BB40;
+}
+
+.card-box-text{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(110, 110, 110, 1);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card2-box-item1{
+    width: 15.38px;
+    height: 15px;
+    margin-top: 12px;
+    margin-left: 20px;
+    color: rgba(27, 188, 155, 1);
+}
+
+.card-heading{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: black;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.card-para{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+     color: rgba(110, 110, 110, 1);
+    margin-top: -17px;
+    margin-left: 12%;
+}
+
+.card-hr{
+    width: 320px;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background: rgb(173, 172, 172);
+}
+
+.card1-button{
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 110px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 1s all .5s;
+    background-color:rgba(255, 210, 5, 1);
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+}
+.card-price{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-align: right;
+    color: black;
+    margin-right: 70px;
+}
+
+.card2-button{
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 110px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 1s all .5s;
+    background-color:rgba(27, 188, 155, 1);
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* responsive */
+
+@media screen and (max-width: 768px) {
+    .box-1 {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .box-1-icon {
+        margin-left: 0;
+    }
+    .box-1-text-heading {
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .box-1-text-c {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .box-2 {
+        width: 90%; /* Adjust width as needed */
+        margin: 0 auto; /* Center horizontally */
+    }
+    .package-heading1 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 250px;
+        text-align: center;
+    }
+    .box-4{
+        width: 100%; 
+        flex-direction: column; 
+        align-items: center;
+        height: auto;
+    }
+    .box-2-hr3,
+    .box-2-hr1 {
+        width: 70%;
+    }
+    .box-2-hr2 {
+        width: 50%;
+    }
+    .box-3-img-layout1 {
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+        margin-left: 0;  
+    }
+    .box-3-img1 {
+        width: 80%;
+        height: 200px;
+        margin-top: 23%;
+        margin-right: 0; 
+    }
+    .box-3-img2 {
+         margin-top: 5%; 
+         width: 20%;
+        margin-left: 2px;
+    }
+    .box-1{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    .box-1-icon{
+        margin-left: 20px;
+    }
+    
+}
+
+
+
 
 
 
