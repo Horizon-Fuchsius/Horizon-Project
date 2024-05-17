@@ -53,9 +53,12 @@
 }
 
 button{
-    background-color: #1BBC9B;
-    color: bisque;
-    margin: 0%;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    margin-left: 60px;
+    background-color: #1bbc9b;
+    border-radius: 3px;
 }
 
 .card-container-1 {
